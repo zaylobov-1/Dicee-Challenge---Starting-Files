@@ -1,0 +1,95 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #393e46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+.btn {
+  font-size: 24px;
+  font-family: "Lobster", cursive;
+  margin-left: auto;
+}
+
+@media (max-width: 460px) {
+  .heading {
+    font-size: 60px;
+  }
+
+  .img1 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .img2 {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .dice {
+    display: flex;
+  }
+}
+
+@media (max-width: 470px) {
+  .heading {
+    font-size: 59px;
+  }
+  .img1 {
+    width: 58px;
+  }
+  .img2 {
+    width: 58px;
+  }
+  .dice {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 290px) {
+  .heading {
+    font-size: 50px;
+  }
+  .btn {
+    font-size: 18px;
+  }
+}
